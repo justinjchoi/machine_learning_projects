@@ -1,0 +1,39 @@
+2018-04-17 07:13:02,843 Training model:salary.labeled.csv
+2018-04-17 07:13:02,844 Loading data:salary.labeled.csv
+2018-04-17 07:13:06,414 Learning Model under folder 1 and params [('kernel', 'linear'), ('C', 1)]
+2018-04-17 07:13:06,415 Learning Model under folder 1 and params [('kernel', 'rbf'), ('C', 20), ('gamma', 0.03)]
+2018-04-17 07:13:06,461 Learning Model under folder 1 and params [('kernel', 'sigmoid'), ('C', 0.0001), ('coef0', 1), ('gamma', 1)]
+2018-04-17 07:13:06,464 Learning Model under folder 1 and params [('kernel', 'poly'), ('C', 1), ('coef0', 1), ('gamma', 1), ('degree', 1)]
+2018-04-17 07:14:13,355 Running prediction under folder 1 and params [('kernel', 'linear'), ('C', 1)]
+2018-04-17 07:14:14,816 Running prediction under folder 1 and params [('kernel', 'poly'), ('C', 1), ('coef0', 1), ('gamma', 1), ('degree', 1)]
+2018-04-17 07:14:26,607 Running prediction under folder 1 and params [('kernel', 'rbf'), ('C', 20), ('gamma', 0.03)]
+2018-04-17 07:14:52,954 Running prediction under folder 1 and params [('kernel', 'sigmoid'), ('C', 0.0001), ('coef0', 1), ('gamma', 1)]
+2018-04-17 07:15:24,387 Learning Model under folder 2 and params [('kernel', 'linear'), ('C', 1)]
+2018-04-17 07:15:28,792 Learning Model under folder 2 and params [('kernel', 'poly'), ('C', 1), ('coef0', 1), ('gamma', 1), ('degree', 1)]
+2018-04-17 07:15:54,258 Learning Model under folder 2 and params [('kernel', 'rbf'), ('C', 20), ('gamma', 0.03)]
+2018-04-17 07:17:08,693 Running prediction under folder 2 and params [('kernel', 'linear'), ('C', 1)]
+2018-04-17 07:17:12,845 Running prediction under folder 2 and params [('kernel', 'poly'), ('C', 1), ('coef0', 1), ('gamma', 1), ('degree', 1)]
+2018-04-17 07:17:16,525 Learning Model under folder 2 and params [('kernel', 'sigmoid'), ('C', 0.0001), ('coef0', 1), ('gamma', 1)]
+2018-04-17 07:17:32,679 Running prediction under folder 2 and params [('kernel', 'rbf'), ('C', 20), ('gamma', 0.03)]
+2018-04-17 07:18:05,109 Learning Model under folder 3 and params [('kernel', 'linear'), ('C', 1)]
+2018-04-17 07:18:10,137 Learning Model under folder 3 and params [('kernel', 'poly'), ('C', 1), ('coef0', 1), ('gamma', 1), ('degree', 1)]
+2018-04-17 07:18:37,723 Learning Model under folder 3 and params [('kernel', 'rbf'), ('C', 20), ('gamma', 0.03)]
+2018-04-17 07:18:47,182 Running prediction under folder 2 and params [('kernel', 'sigmoid'), ('C', 0.0001), ('coef0', 1), ('gamma', 1)]
+2018-04-17 07:19:19,767 Running prediction under folder 3 and params [('kernel', 'linear'), ('C', 1)]
+2018-04-17 07:19:25,607 Running prediction under folder 3 and params [('kernel', 'poly'), ('C', 1), ('coef0', 1), ('gamma', 1), ('degree', 1)]
+2018-04-17 07:20:05,628 Running prediction under folder 3 and params [('kernel', 'rbf'), ('C', 20), ('gamma', 0.03)]
+2018-04-17 07:20:24,167 train accuracy 0.8515 with params [('kernel', 'linear'), ('C', 1)]
+2018-04-17 07:20:24,167 validation accuracy 0.8498 with params [('kernel', 'linear'), ('C', 1)]
+2018-04-17 07:20:30,073 train accuracy 0.8514 with params [('kernel', 'poly'), ('C', 1), ('coef0', 1), ('gamma', 1), ('degree', 1)]
+2018-04-17 07:20:30,073 validation accuracy 0.8498 with params [('kernel', 'poly'), ('C', 1), ('coef0', 1), ('gamma', 1), ('degree', 1)]
+2018-04-17 07:20:37,249 Learning Model under folder 3 and params [('kernel', 'sigmoid'), ('C', 0.0001), ('coef0', 1), ('gamma', 1)]
+2018-04-17 07:21:00,488 train accuracy 0.8593 with params [('kernel', 'rbf'), ('C', 20), ('gamma', 0.03)]
+2018-04-17 07:21:00,488 validation accuracy 0.8510 with params [('kernel', 'rbf'), ('C', 20), ('gamma', 0.03)]
+2018-04-17 07:21:40,472 Running prediction under folder 3 and params [('kernel', 'sigmoid'), ('C', 0.0001), ('coef0', 1), ('gamma', 1)]
+2018-04-17 07:22:50,802 train accuracy 0.7604 with params [('kernel', 'sigmoid'), ('C', 0.0001), ('coef0', 1), ('gamma', 1)]
+2018-04-17 07:22:50,802 validation accuracy 0.7604 with params [('kernel', 'sigmoid'), ('C', 0.0001), ('coef0', 1), ('gamma', 1)]
+2018-04-17 07:22:53,793 The best model was scored 0.8510
+2018-04-17 07:22:53,794 Loading data:salary.2Predict.csv
+2018-04-27 22:16:38,541 Found existing model trained with file: salary.labeled.csv
+2018-04-27 22:16:39,219 The best model was scored 0.8510
+2018-04-27 22:16:39,219 Loading data:salary.2Predict.csv
